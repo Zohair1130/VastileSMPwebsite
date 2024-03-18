@@ -1,0 +1,7 @@
+#showcase > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 400px;
+    gap: 50px;
+}
