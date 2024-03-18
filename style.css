@@ -1,7 +1,25 @@
-#showcase > div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 400px;
-    gap: 50px;
+nav {
+    display: flex;
 }
+
+#main-menu {
+    display: flex;
+    gap: 50px;
+
+}
+
+#main-menu li {
+    list-style: none;
+
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src:
+    
+      url("fonts/minecraft_font.ttf") format("ttf");
+  }
+  
+  h1 {
+    font-family: "Minecraft";
+  }
