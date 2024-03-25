@@ -16,13 +16,18 @@ nav {
 @font-face {
     font-family: "MinecraftRegular";
     src:
-    
       url("fonts/MinecraftRegular.otf") format("opentype");
   }
   
   nav {
     font-family: "MinecraftRegular";
     font-size:x-large
+  }
+
+  .websitebanner {
+    width: 800px;
+    display: flex;
+    justify-content: center;
   }
 
   h1 {
@@ -35,6 +40,11 @@ nav {
     font-size: 36px;
   }
 
+  p {
+    font-family: "MinecraftRegular";
+    font-size: 24px;
+  }
+
   h3 {
     font-family: "MinecraftRegular";
     font-size: 36px;
@@ -43,8 +53,4 @@ nav {
   footer {
     font-family: "MinecraftRegular";
     font-size: 24px;
-  }
-
-  #websitebanner {
-    display:flex;
   }
