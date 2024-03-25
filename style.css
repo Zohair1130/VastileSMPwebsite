@@ -4,7 +4,7 @@ nav {
 
 #main-menu {
     display: flex;
-    gap: 50px;
+    gap: 80px;
 
 }
 
@@ -21,16 +21,16 @@ nav {
   
   nav {
     font-family: "MinecraftRegular";
-    font-size:x-large
-  }
-
-  .websitebanner {
-    width: 100%;
+    font-size: 32px;
   }
 
   .websitebanner img {
     width: 100%;
   }
+/* 
+  .vastiletext img {
+    width: 100%;
+  } */
 
   h1 {
     font-family: "MinecraftRegular";
@@ -55,4 +55,7 @@ nav {
   footer {
     font-family: "MinecraftRegular";
     font-size: 24px;
+    display: flex;
+    gap: 50px;
+    list-style: none;
   }
