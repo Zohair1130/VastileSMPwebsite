@@ -1,10 +1,11 @@
 nav {
     display: flex;
+    
 }
 
 #main-menu {
     display: flex;
-    gap: 80px;
+    gap: 125px;
 
 }
 
@@ -21,7 +22,7 @@ nav {
   
   nav {
     font-family: "MinecraftRegular";
-    font-size: 32px;
+    font-size: 34px;
   }
 
   .websitebanner img {
@@ -31,6 +32,7 @@ nav {
   h1 {
     font-family: "MinecraftRegular";
     font-size: 36px;
+    text-align: center;
   }
 
   h2 {
@@ -48,10 +50,19 @@ nav {
     font-size: 36px;
   }
 
+  #Modlist li {
+    list-style: circle;
+    font-family: "MinecraftRegular";
+    
+
+  }
+
   footer {
     font-family: "MinecraftRegular";
     font-size: 24px;
     display: flex;
-    gap: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
     list-style: none;
   }
