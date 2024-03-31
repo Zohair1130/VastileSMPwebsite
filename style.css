@@ -66,3 +66,7 @@ nav {
     gap: 150px;
     list-style: none;
   }
+
+  body {
+    background-color: #ffcb47;
+  }
