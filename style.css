@@ -1,17 +1,18 @@
 nav {
     display: flex;
-    
+}
+
+body {
+  background-color: #ffcb47;
 }
 
 #main-menu {
     display: flex;
     gap: 125px;
-
 }
 
 #main-menu li {
     list-style: none;
-
 }
 
 @font-face {
@@ -65,8 +66,4 @@ nav {
     justify-content: center;
     gap: 150px;
     list-style: none;
-  }
-
-  body {
-    background-color: #ffcb47;
   }
