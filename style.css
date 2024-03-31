@@ -1,9 +1,9 @@
-nav {
-    display: flex;
-}
-
 body {
   background-color: #ffcb47;
+}
+
+nav {
+    display: flex;
 }
 
 #main-menu {
