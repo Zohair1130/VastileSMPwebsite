@@ -1,14 +1,20 @@
 body {
   background-color: #ffcb47;
+  margin: 0px;
 }
 
 nav {
     display: flex;
+    background-color: rgb(32, 32, 32);
 }
 
 #main-menu {
     display: flex;
     gap: 125px;
+}
+
+#main-menu li a {
+  color:#ffcb47;
 }
 
 #main-menu li {
@@ -39,23 +45,30 @@ nav {
   h2 {
     font-family: "MinecraftRegular";
     font-size: 36px;
+    margin: 10px;
   }
 
   p {
     font-family: "MinecraftRegular";
     font-size: 24px;
+    margin: 10px;
   }
 
   h3 {
     font-family: "MinecraftRegular";
     font-size: 36px;
+    margin: 10px;
   }
 
   #Modlist li {
-    list-style: circle;
+    list-style: none;
     font-family: "MinecraftRegular";
-    
+    margin: 10px;
 
+  }
+
+  .container {
+    margin: 10px;
   }
 
   footer {
@@ -66,4 +79,5 @@ nav {
     justify-content: center;
     gap: 150px;
     list-style: none;
+    margin: 10px;
   }
