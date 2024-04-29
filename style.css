@@ -3,18 +3,37 @@ body {
   margin: 0px;
 }
 
-nav {
+#navbar {
     display: flex;
     background-color: rgb(32, 32, 32);
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    top: 0px;
+    transition: top 0.3s;
+}
+
+#navbar a:hover {
+  background-color: none;
+  color: rgb(215, 75, 32);
 }
 
 #main-menu {
     display: flex;
-    gap: 125px;
+    gap: 0px;
 }
 
 #main-menu li a {
   color:#ffcb47;
+  padding: 39px;
+  padding-left: 60px;
+  padding-right: 60px;
+  transition: background-color 0.3s;
+}
+
+#main-menu li a:hover {
+  background-color: rgb(85, 85, 85);
+
 }
 
 #main-menu li {
@@ -27,19 +46,24 @@ nav {
       url("fonts/MinecraftRegular.otf") format("opentype");
   }
   
-  nav {
+  #navbar {
     font-family: "MinecraftRegular";
     font-size: 34px;
   }
 
   .websitebanner img {
     width: 100%;
+    padding-top: 100px;
   }
 
   h1 {
     font-family: "MinecraftRegular";
     font-size: 36px;
     text-align: center;
+    background-color: rgb(190, 15, 15);
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: -5px;
   }
 
   h2 {
