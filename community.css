@@ -45,6 +45,17 @@ body {
     src:
       url("fonts/MinecraftRegular.otf") format("opentype");
   }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+    }
+  }
   
   #navbar {
     font-family: "MinecraftRegular";
@@ -57,27 +68,51 @@ body {
   }
 
   h1 {
-    font-family: "MinecraftRegular";
-    font-size: 36px;
-    text-align: center;
-  }
-
-  h2 {
-    font-family: "MinecraftRegular";
-    font-size: 36px;
-    margin: 10px;
+    font-family: "Minecrafter";
+    font-size: 64px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 135px;
+    margin-top: 0px;
   }
 
   p {
     font-family: "MinecraftRegular";
-    font-size: 24px;
+    font-size: 36px;
     margin: 10px;
+    padding-left: 45px;
   }
 
-  h3 {
+  h2 {
+    font-family: "Minecrafter";
+    font-size: 64px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-top: 135px;
+  }
+
+  p {
     font-family: "MinecraftRegular";
     font-size: 36px;
     margin: 10px;
+    padding-left: 45px;
+  }
+
+  h3 {
+    font-family: "Minecrafter";
+    font-size: 64px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-top: 135px;
+  }
+
+  p {
+    font-family: "MinecraftRegular";
+    font-size: 36px;
+    margin: 10px;
+    padding-left: 45px;
   }
 
   #Modlist li {

@@ -4,46 +4,57 @@ body {
 }
 
 #navbar {
-    display: flex;
-    background-color: rgb(32, 32, 32);
-    position: fixed;
-    width: 100%;
-    margin: auto;
-    top: 0px;
-    transition: top 0.3s;
+  display: flex;
+  background-color: rgb(32, 32, 32);
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  top: 0px;
+  transition: top 0.3s;
 }
 
 #navbar a:hover {
-  background-color: none;
-  color: rgb(215, 75, 32);
+background-color: none;
+color: rgb(215, 75, 32);
 }
 
 #main-menu {
-    display: flex;
-    gap: 0px;
+  display: flex;
+  gap: 0px;
 }
 
 #main-menu li a {
-  color:#ffcb47;
-  padding: 39px;
-  padding-left: 60px;
-  padding-right: 60px;
-  transition: background-color 0.3s;
+color:#ffcb47;
+padding: 39px;
+padding-left: 60px;
+padding-right: 60px;
+transition: background-color 0.3s;
 }
 
 #main-menu li a:hover {
-  background-color: rgb(85, 85, 85);
+background-color: rgb(85, 85, 85);
 
 }
 
 #main-menu li {
-    list-style: none;
+  list-style: none;
 }
 
 @font-face {
     font-family: "MinecraftRegular";
     src:
       url("fonts/MinecraftRegular.otf") format("opentype");
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+    }
   }
   
   #navbar {
@@ -57,28 +68,59 @@ body {
   }
 
   h1 {
-    font-family: "MinecraftRegular";
-    font-size: 36px;
+    font-family: "Minecrafter";
+    font-size: 64px;
     text-align: center;
-    padding-top: 100px;
-  }
-
-  h2 {
-    font-family: "MinecraftRegular";
-    font-size: 36px;
-    margin: 10px;
+    padding-top: 120px;
   }
 
   p {
     font-family: "MinecraftRegular";
-    font-size: 24px;
+    font-size: 36px;
     margin: 10px;
+    text-align: center;
   }
 
-  h3 {
+  li {
     font-family: "MinecraftRegular";
     font-size: 36px;
     margin: 10px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Minecrafter";
+    font-size: 64px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: "MinecraftRegular";
+    font-size: 36px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: "Minecrafter";
+    font-size: 64px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: "MinecraftRegular";
+    font-size: 36px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: "Minecrafter";
+    font-size: 64px;
+    margin: 10px;
+    text-align: center;
   }
 
   #Modlist li {

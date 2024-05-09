@@ -45,6 +45,17 @@ body {
     src:
       url("fonts/MinecraftRegular.otf") format("opentype");
   }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+    }
+  }
   
   #navbar {
     font-family: "MinecraftRegular";
@@ -88,8 +99,14 @@ body {
     list-style: none;
     font-family: "MinecraftRegular";
     margin: 10px;
-
   }
+
+  /* #fullmodlist {
+    list-style: none;
+    font-family: "MinecraftRegular";
+    margin: 10px;
+    padding-left: 20px;
+  } */
 
   .container {
     margin: 10px;
@@ -97,7 +114,7 @@ body {
 
   footer {
     font-family: "MinecraftRegular";
-    font-size: 24px;
+    font-size: 36px;
     display: flex;
     display: flex;
     justify-content: center;
